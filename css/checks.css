@@ -84,9 +84,6 @@ footer {
 .markdown-body table tr:nth-child(2n) {
   background-color: #232335;
 }
-.guess-component {
-    width: 120px;
-}
 table input[type="text"] {
   width: 33px;
   text-align:  center;
