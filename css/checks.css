@@ -8,7 +8,7 @@
   display: inline-block;
   font-size: 18px;
   cursor: pointer;
-  padding: 0 6px;
+  padding: 0;
 }
 
 .guess-component {
@@ -65,12 +65,15 @@ footer {
 .markdown-body table th:not(:first-child) {
   max-width: 44px;
   width: 44px;
+  padding: 6px;
+  text-align: center;
 }
 .markdown-body table thead tr {
   background-color: #9632fa80;
 }
 .markdown-body table thead th {
   text-transform: uppercase;
+  text-align: left;
 }
 .markdown-body table tr {  
   background-color: #232335;
@@ -94,7 +97,6 @@ table#one {
 }
 table#one thead th,table#one tbody td {
   border-color: #9632fa;
-  text-align: left;
 }
 
 table#two {
@@ -105,7 +107,6 @@ table#two {
 table#two thead th,
 table#two tbody td {
   border-color: #32faca;
-  text-align: left;
 }
 table#two thead tr {
   background-color: #32faca80;
@@ -119,7 +120,6 @@ table#three {
 table#three thead th,
 table#three tbody td {
   border-color: #fa326f;
-  text-align: left;
 }
 table#three thead tr {
   background-color: #fa326f80;
