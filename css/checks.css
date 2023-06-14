@@ -12,7 +12,8 @@
 }
 
 .guess-component {
-  width: 150px;
+  min-width: 120px;
+  width:  100%;
 }
 
 /* Text changes depending on button status */
@@ -56,6 +57,7 @@ footer {
 
 .markdown-body table {
   max-width: calc(100vw - 12px);
+  width: 95vw;
 }
 .markdown-body table td, 
 .markdown-body table th {
@@ -93,7 +95,7 @@ table input[type="text"] {
 table#one {
   border-color: #9632fa;
   box-shadow: 0 4px 8px #9632fa80;
-  margin:  5px;
+  margin:  8px;
 }
 table#one thead th,table#one tbody td {
   border-color: #9632fa;
@@ -102,7 +104,7 @@ table#one thead th,table#one tbody td {
 table#two {
   border-color: #32faca;
   box-shadow: 0 4px 8px #32faca80;
-  margin: 25px 5px 5px;
+  margin: 25px 8px 5px;
 }
 table#two thead th,
 table#two tbody td {
@@ -115,7 +117,7 @@ table#two thead tr {
 table#three {
   border-color: #fa326f;
   box-shadow: 0 4px 8px #fa326f80;
-  margin: 25px 5px 5px;
+  margin: 25px 8px 5px;
 }
 table#three thead th,
 table#three tbody td {
