@@ -60,9 +60,10 @@ footer {
 .markdown-body table th {
   padding: 6px;
 }
-.markdown-body table td:nth-child(n+2), 
-.markdown-body table th:nth-child(n+2) {
+.markdown-body table td:not(:first-child), 
+.markdown-body table th:not(:first-child) {
   max-width: 44px;
+  width: 44px;
 }
 .markdown-body table thead tr {
   background-color: #9632fa80;
@@ -81,7 +82,7 @@ footer {
     width: 120px;
 }
 table input[type="text"] {
-  width: 3ch;
+  width: 33px;
   text-align:  center;
 }
 
