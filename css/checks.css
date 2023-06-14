@@ -54,11 +54,15 @@ footer {
 /* TABLE */
 
 .markdown-body table {
-  max-width: calc(100% - 12px);
+  max-width: calc(100vw - 12px);
 }
 .markdown-body table td, 
 .markdown-body table th {
   padding: 6px;
+}
+.markdown-body table td:nth-child(n+2), 
+.markdown-body table th:nth-child(n+2) {
+  max-width: 44px;
 }
 .markdown-body table thead tr {
   background-color: #9632fa80;
